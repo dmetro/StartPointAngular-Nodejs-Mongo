@@ -1,0 +1,99 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    padding: 10px;
+    font-family: Arial;
+}
+
+.del {
+    cursor: pointer;
+    background-color: #da4040;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    padding: 4px 11px;
+    margin-top: 7px;
+    border-radius: 3px;
+}
+
+.del:hover {
+    background-color: #d65f5f;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+    margin: 9px;
+    background-color: #efefef;
+    display: inline-block;
+    min-width: 142px;
+    box-shadow: rgba(0, 0, 0, .6) 2px 2px 7px;
+}
+
+li > .item {
+    margin: 3px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all .15s linear;
+}
+
+input[type="text"]:focus {
+    border-color: #d65f5f;
+}
+
+input[type="submit"] {
+    border: 0;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    padding: 7px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+input[type="submit"]:hover {
+    background-color: #e2a633;
+    color: #fff;
+}
+
+.field {
+    padding: 7px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.myButton {
+    background-color: #ccc;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 7px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.myButton:hover {
+    background-color: #b9ea27;
+}
